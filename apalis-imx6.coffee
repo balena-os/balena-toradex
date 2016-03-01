@@ -64,7 +64,7 @@ module.exports =
 		machine: 'apalis-imx6'
 		image: 'resin-image-flasher'
 		fstype: 'resin-sdcard'
-		version: 'yocto-fido'
+		version: 'yocto-jethro'
 		deployArtifact: 'resin-image-flasher-apalis-imx6.resin-sdcard'
 
 	options: [ networkOptions.group ]

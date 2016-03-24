@@ -4,6 +4,12 @@ deviceTypesCommon = require 'resin-device-types/common'
 SERIAL_CABLE = 'Connect the carrier board to a host computer using a serial cable. (This step may differ based on what carrier board you have)'
 UBOOT = 'Power the module. Press SPACE when prompted by U-Boot to stop execution and run the following command `run sdboot`'
 
+postProvisioningInstructions = [
+	instructions.BOARD_SHUTDOWN
+	instructions.REMOVE_INSTALL_MEDIA
+	instructions.BOARD_REPOWER
+]
+
 module.exports =
 	slug: 'colibri-imx6dl'
 	aliases: [ 'colibri-imx6' ]
@@ -12,46 +18,15 @@ module.exports =
 	state: 'experimental'
 
 	stateInstructions:
-		postProvisioning: [
-			instructions.BOARD_SHUTDOWN
-			instructions.REMOVE_INSTALL_MEDIA
-			instructions.BOARD_REPOWER
-		]
+		postProvisioning:
 
-	instructions:
-		windows: [
-			instructions.WINDOWS_DISK_IMAGER_SD
-			instructions.EJECT_SD
-			instructions.FLASHER_WARNING
-			SERIAL_CABLE
-			UBOOT
-			instructions.BOARD_SHUTDOWN
-			instructions.REMOVE_INSTALL_MEDIA
-			instructions.BOARD_REPOWER
-		]
-		osx: [
-			instructions.OSX_PLUG_SD
-			instructions.OSX_UNMOUNT_SD
-			instructions.DD_BURN_IMAGE_SD
-			instructions.EJECT_SD
-			instructions.FLASHER_WARNING
-			SERIAL_CABLE
-			UBOOT
-			instructions.BOARD_SHUTDOWN
-			instructions.REMOVE_INSTALL_MEDIA
-			instructions.BOARD_REPOWER
-		]
-		linux: [
-			instructions.LINUX_DF_SD
-			instructions.DD_BURN_IMAGE_SD
-			instructions.EJECT_SD
-			instructions.FLASHER_WARNING
-			SERIAL_CABLE
-			UBOOT
-			instructions.BOARD_SHUTDOWN
-			instructions.REMOVE_INSTALL_MEDIA
-			instructions.BOARD_REPOWER
-		]
+	instructions: [
+		instructions.WINDOWS_ETCHER_SD
+		instructions.EJECT_SD
+		instructions.FLASHER_WARNING
+		SERIAL_CABLE
+		UBOOT
+	].concat(postProvisioningInstructions)
 
 	gettingStartedLink:
 		windows: 'http://docs.resin.io/#/pages/installing/gettingStarted-colibri-imx6.md#windows'

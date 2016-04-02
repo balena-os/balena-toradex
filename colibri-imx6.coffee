@@ -18,7 +18,7 @@ module.exports =
 	state: 'experimental'
 
 	stateInstructions:
-		postProvisioning:
+		postProvisioning: postProvisioningInstructions
 
 	instructions: [
 		instructions.WINDOWS_ETCHER_SD

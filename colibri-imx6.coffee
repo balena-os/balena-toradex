@@ -21,7 +21,7 @@ module.exports =
 		postProvisioning: postProvisioningInstructions
 
 	instructions: [
-		instructions.WINDOWS_ETCHER_SD
+		instructions.ETCHER_SD
 		instructions.EJECT_SD
 		instructions.FLASHER_WARNING
 		SERIAL_CABLE

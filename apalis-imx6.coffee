@@ -41,6 +41,7 @@ module.exports =
 		fstype: 'resin-sdcard'
 		version: 'yocto-jethro'
 		deployArtifact: 'resin-image-flasher-apalis-imx6.resin-sdcard'
+		compressed: true
 
 	options: [ networkOptions.group ]
 

@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+
+if grep -q "Freescale i.MX6 Quad/DualLite" "/proc/cpuinfo" ; then
+    dd if=/boot/u-boot.imx-dual of=/dev/mmcblk0 conv=notrunc seek=1 bs=1024
+else
+    dd if=/boot/u-boot.imx-single of=/dev/mmcblk0 conv=notrunc seek=1 bs=1024
+fi
+
+exit 0

@@ -25,4 +25,6 @@ RESIN_IMAGE_BOOTLOADER_colibri-imx6 = "u-boot"
 RESIN_BOOT_PARTITION_FILES_colibri-imx6 = " \
     ${KERNEL_IMAGETYPE}-${MACHINE}.bin:/${KERNEL_IMAGETYPE} \
     uImage-imx6dl-colibri-eval-v3.dtb:/imx6dl-colibri-eval-v3.dtb \
+    u-boot.imx-single:/ \
+    u-boot.imx-dual:/ \
     "

@@ -1,6 +1,7 @@
 Change log
 -----------
 
+* Add support for optional supervisor image [Andrei]
 * Update meta-resin to v1.2 [Andrei]
 * Bump meta-resin to HEAD [Andrei]
 * Correct RAM configuration for Colibri imx6 Quad/DualLite [Theodor]

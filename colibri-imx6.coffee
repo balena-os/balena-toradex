@@ -11,6 +11,7 @@ postProvisioningInstructions = [
 ]
 
 module.exports =
+	version: 1
 	slug: 'colibri-imx6dl'
 	aliases: [ 'colibri-imx6' ]
 	name: 'Colibri iMX6dl'
@@ -48,8 +49,7 @@ module.exports =
 	configuration:
 		config:
 			partition:
-				primary: 4
-				logical: 1
+				primary: 1
 			path: '/config.json'
 
 	initialization: commonImg.initialization

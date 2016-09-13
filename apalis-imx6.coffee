@@ -11,6 +11,7 @@ postProvisioningInstructions = [
 ]
 
 module.exports =
+	version: 1
 	slug: 'apalis-imx6q'
 	aliases: [ 'apalis-imx6' ]
 	name: 'Apalis iMX6q'
@@ -48,8 +49,7 @@ module.exports =
 	configuration:
 		config:
 			partition:
-				primary: 4
-				logical: 1
+				primary: 1
 			path: '/config.json'
 
 	initialization: commonImg.initialization

@@ -1,6 +1,8 @@
 Change log
 -----------
 
+* Add modified aufs patches here because of modified kernel tree which does not accept pristine aufs patches [Florin]
+
 # v1.16.0 - 2016-09-27
 
 * Update meta-resin to v1.16 [Florin]

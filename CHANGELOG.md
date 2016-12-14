@@ -1,6 +1,8 @@
 Change log
 -----------
 
+* Fix resin-init-flasher-board after boot partition mountpoint moved to /mnt/boot [Andrei]
+
 # v1.24.0 - 2016-12-05
 
 * Update meta-resin to v1.24 [Florin]

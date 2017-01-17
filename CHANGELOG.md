@@ -1,6 +1,7 @@
 Change log
 -----------
 
+* Update resin-yocto-scripts to HEAD of the master branch [Florin]
 * Fix resin-init-flasher-board after boot partition mountpoint moved to /mnt/boot [Andrei]
 
 # v2.0.0-beta.7 - 2016-12-05

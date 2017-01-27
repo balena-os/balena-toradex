@@ -1,6 +1,9 @@
 Change log
 -----------
 
+# v2.0.0-beta.8 - 2017-01-27
+
+* Update meta-resin to v2.0-beta.8 [Andrei]
 * Update resin-yocto-scripts to HEAD of the master branch [Florin]
 * Fix resin-init-flasher-board after boot partition mountpoint moved to /mnt/boot [Andrei]
 

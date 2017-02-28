@@ -2,9 +2,9 @@
 # Apalis imx6
 #
 
-IMAGE_FSTYPES_append_apalis-imx6 = " resin-sdcard"
+IMAGE_FSTYPES_append_apalis-imx6 = " resinos-img"
 
-# Customize resin-sdcard
+# Customize resinos-img
 RESIN_IMAGE_BOOTLOADER_apalis-imx6 = "u-boot"
 
 RESIN_BOOT_PARTITION_FILES_apalis-imx6 = " \
@@ -17,9 +17,9 @@ RESIN_BOOT_PARTITION_FILES_apalis-imx6 = " \
 # Colibri imx6
 #
 
-IMAGE_FSTYPES_append_colibri-imx6 = " resin-sdcard"
+IMAGE_FSTYPES_append_colibri-imx6 = " resinos-img"
 
-# Customize resin-sdcard
+# Customize resinos-img
 RESIN_IMAGE_BOOTLOADER_colibri-imx6 = "u-boot"
 
 RESIN_BOOT_PARTITION_FILES_colibri-imx6 = " \

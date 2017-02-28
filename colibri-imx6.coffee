@@ -39,9 +39,9 @@ module.exports =
 	yocto:
 		machine: 'colibri-imx6'
 		image: 'resin-image-flasher'
-		fstype: 'resin-sdcard'
+		fstype: 'resinos-img'
 		version: 'yocto-jethro'
-		deployArtifact: 'resin-image-flasher-colibri-imx6.resin-sdcard'
+		deployArtifact: 'resin-image-flasher-colibri-imx6.resinos-img'
 		compressed: true
 
 	options: [ networkOptions.group ]

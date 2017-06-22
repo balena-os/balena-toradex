@@ -16,7 +16,7 @@ module.exports =
 	aliases: [ 'colibri-imx6' ]
 	name: 'Colibri iMX6dl'
 	arch: 'armv7hf'
-	state: 'experimental'
+	state: 'discontinued'
 
 	stateInstructions:
 		postProvisioning: postProvisioningInstructions

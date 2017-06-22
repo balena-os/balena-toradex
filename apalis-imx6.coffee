@@ -16,7 +16,7 @@ module.exports =
 	aliases: [ 'apalis-imx6' ]
 	name: 'Apalis iMX6q'
 	arch: 'armv7hf'
-	state: 'experimental'
+	state: 'discontinued'
 
 	stateInstructions:
 		postProvisioning: postProvisioningInstructions

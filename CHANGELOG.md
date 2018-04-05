@@ -1,6 +1,8 @@
 Change log
 -----------
 
+# v2.0.0+rev1 - 2018-04-05
+
 * Update resin-yocto-scripts to current HEAD [Andrei]
 * Mark as deprecated [Will]
 

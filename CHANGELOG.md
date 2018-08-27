@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.0.0+rev2
+## (2018-08-27)
+
+* Add versionist support [Giovanni Garufi]
+
 # v2.0.0+rev1 - 2018-04-05
 
 * Update resin-yocto-scripts to current HEAD [Andrei]
